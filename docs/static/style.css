@@ -1,10 +1,10 @@
 h1 {
-    font-size: 4em !important;
+    font-size: 3.5em !important;
     color: white !important;
 }
 
 h2 {
-    font-size: 2.5em !important;
+    font-size: 2.75em !important;
 }
 
 h3 {
@@ -45,7 +45,7 @@ h3 {
 }
 
 .hero {
-    padding: 6em 0 7em 0 !important;
+    padding: 5em 0 7em 0 !important;
     text-shadow: 0 0 5px #444;
 }
 
@@ -55,11 +55,11 @@ h3 {
 
 .mobile.only.hero {
     font-size: 0.75em;
-    padding: 4em 0 3em 0 !important;
+    padding: 5em 0 3em 0 !important;
 }
 
 .tablet.only.hero {
-    padding: 7em 0 5em 0 !important;
+    padding: 9em 0 5em 0 !important;
 }
 
 .ui.basic.segment {
