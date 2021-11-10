@@ -1,112 +1,116 @@
 h1 {
-    font-size: 3.5em !important;
-    color: white !important;
+  font-size: 3.5em !important;
+  color: white !important;
 }
 
 h2 {
-    font-size: 2.75em !important;
+  font-size: 2.75em !important;
 }
 
 h3 {
-    font-size: 2em !important;
+  font-size: 2em !important;
 }
 
 .ui.menu .item {
-    color: white !important;
+  color: white !important;
 }
 
 .ui.menu .header.item {
-    padding-left: 0;
+  padding-left: 0;
 }
 
 .ui.sidebar.menu {
-    font-size: 1.5em
+  font-size: 1.5em;
 }
 
 #hero-section {
-    border-bottom: 0px;
-    background-color: black;
-    color: white;
+  border-bottom: 0px;
+  background-color: black;
+  color: white;
+}
+
+#program-section span.header a {
+  text-decoration: underline;
 }
 
 #hero-section:before {
-    content: ' ';
-    opacity: 0.4;
-    display: block;
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url("city/saint-petersburg.jpg");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
+  content: " ";
+  opacity: 0.4;
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("city/saint-petersburg.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
 }
 
 .hero {
-    padding: 5em 0 7em 0 !important;
-    text-shadow: 0 0 5px #444;
+  padding: 5em 0 7em 0 !important;
+  text-shadow: 0 0 5px #444;
 }
 
 .hero .huge.button {
-    margin-top: 1em;
+  margin-top: 1em;
 }
 
 .mobile.only.hero {
-    font-size: 0.75em;
-    padding: 5em 0 3em 0 !important;
+  font-size: 0.75em;
+  padding: 5em 0 3em 0 !important;
 }
 
 .tablet.only.hero {
-    padding: 9em 0 5em 0 !important;
+  padding: 9em 0 5em 0 !important;
 }
 
 .ui.basic.segment {
-    padding-left: 0;
-    padding-right: 0;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .ui.basic.segment .ui.grid.container {
-    padding: 2em 0em;
+  padding: 2em 0em;
 }
 
 .ui.basic.segment span {
-    line-height: 1.5em;
+  line-height: 1.5em;
 }
 
 #participation-section {
-    border-top: 1px solid rgba(34,36,38,.15);
-    border-bottom: 1px solid rgba(34,36,38,.15);
-    background-color: #fcf7de;
-    padding: 2em 0;
-    margin-top: 0;
+  border-top: 1px solid rgba(34, 36, 38, 0.15);
+  border-bottom: 1px solid rgba(34, 36, 38, 0.15);
+  background-color: #fcf7de;
+  padding: 2em 0;
+  margin-top: 0;
 }
 
 #news-section {
-    /* background-color: #defdd0; */
-    background-color: #fddfdf;
-    border-top: 1px solid rgba(34,36,38,.15);
-    border-bottom: 1px solid rgba(34,36,38,.15);
-    padding: 2em 0;
+  /* background-color: #defdd0; */
+  background-color: #fddfdf;
+  border-top: 1px solid rgba(34, 36, 38, 0.15);
+  border-bottom: 1px solid rgba(34, 36, 38, 0.15);
+  padding: 2em 0;
 }
 
 #news-section .summary {
-    line-height: 1.6em;
+  line-height: 1.6em;
 }
 
 #organizers-section {
-    border-top: 1px solid rgba(34,36,38,.15);
-    border-bottom: 1px solid rgba(34,36,38,.15);
-    padding: 2em 0;
-    background-color: #def3fd;
+  border-top: 1px solid rgba(34, 36, 38, 0.15);
+  border-bottom: 1px solid rgba(34, 36, 38, 0.15);
+  padding: 2em 0;
+  background-color: #def3fd;
 }
 
 #venue-section {
-    border-top: 1px solid rgba(34,36,38,.15);
-    border-bottom: 1px solid rgba(34,36,38,.15);
-    padding: 2em 0;
-    background-color: #defdde;
+  border-top: 1px solid rgba(34, 36, 38, 0.15);
+  border-bottom: 1px solid rgba(34, 36, 38, 0.15);
+  padding: 2em 0;
+  background-color: #defdde;
 }
 
 /* #contacts-section {
@@ -116,10 +120,10 @@ h3 {
 } */
 
 .ui.images img + img {
-    margin-left: 3em;
-    margin-right: 3em;
+  margin-left: 3em;
+  margin-right: 3em;
 }
 
 .ui.list li {
-    line-height: 1.5em !important;
+  line-height: 1.5em !important;
 }
