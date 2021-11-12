@@ -17,48 +17,51 @@
     <meta property="og:image" content="https://hse-scila.github.io/ica-conference/static/photo/website-thumb.png" />
 </head>
 <body class="pushable">
-    <div class="ui vertical sidebar huge menu inverted left">
+    <div class="ui vertical sidebar huge menu left inverted">
         <span class="item">
-            <img class="ui logo fluid image" src="static/logo/logo.png" alt="Laboratory for Social and Cognitive Informatics">
+            <img class="ui logo fluid image" src="static/logo/logo-inversed.png" alt="Laboratory for Social and Cognitive Informatics">
         </span>
         <div class="right menu">
-            <a class="item" href="#about">
-                <b>About</b>
-            </a>
-            <div class="ui item">
+            <a class="item" href="#about-section">About</a>
+            <!-- <div class="ui item">
                 <div class="header">
-                    Preliminary program
+                    About
                 </div>
                 <div class="menu">
-                    <a href="#keynote" class="item">Keynote speakers</a>
-                    <a href="#agenda" class="item">Conference agenda</a>
-                </div>
-            </div>
-            <div class="ui item">
-                <div class="header">
-                    Participation
-                </div>
-                <div class="menu">
+                    <a href="#welcome" class="item">Welcome</a>
                     <a href="#scope" class="item">Scope</a>
-                    <a href="#timeline" class="item">Timeline</a>
-                    <a href="#submission" class="item">Submission guidelines</a>
-                    <a href="#fees" class="item">Fees</a>
+                    <a href="#program" class="item">Preliminary program</a>
                 </div>
-            </div>
-            <div class="ui item">
+            </div> -->
+            <b><a class="item" href="#keynotes">Keynotes</a></b>
+            <b><a class="item" href="#participate">Participate</a></b>
+            <!-- <div class="ui item">
                 <div class="header">
-                    Organizers
+                    Participate
                 </div>
                 <div class="menu">
-                    <a href="#advisory-committee" class="item">Conference Advisory Committee</a>
-                    <a href="#publication-partners" class="item">Publication partners</a>
-                    <a href="#university" class="item">University</a>
-                    <a href="#host" class="item">Host Lab</a>
+                    <a href="#timeline" class="item">Timeline</a>
+                    <a href="#fees" class="item">Fees</a>
+                    <a href="#submission" class="item">Submission guidelines</a>
                 </div>
-            </div>
-            <div class="ui item">
+            </div> -->
+            <a class="item" href="#publication">Publication</a>
+            <a class="item" href="#committees">Committees</a>
+            <!-- <div class="ui item">
                 <div class="header">
-                    Venue and travel
+                    Committees
+                </div>
+                <div class="menu">
+                    <a href="#advisory-committee" class="item">Advisory committee</a>
+                    <a href="#organizing-committee" class="item">Organizing committee</a>
+                </div>
+            </div> -->
+            <a class="item" href="#news">News</a>
+            <a class="item" href="#travel">Venue & Travel</a>
+            <a class="item" href="#contacts">Contacts</a>
+            <!-- <div class="ui item">
+                <div class="header">
+                    Venue & Travel
                 </div>
                 <div class="menu">
                     <a href="#campus" class="item">Campus</a>
@@ -66,10 +69,20 @@
                     <a href="#city" class="item">City</a>
                     <a href="#visas" class="item">Visas</a>
                 </div>
-            </div>
+            </div> -->
+            <!-- <div class="ui item">
+                <div class="header">
+                    Contacts
+                </div>
+                <div class="menu">
+                    <a href="#organizers" class="item">Organizers</a>
+                    <a href="#host" class="item">Host Lab</a>
+                    <a href="#about-hse" class="item">About HSE</a>
+                </div>
+            </div> -->
         </div>
     </div>
-    <div class="ui huge fluid fixed top mobile only grid inverted menu">
+    <div class="ui huge fluid fixed top mobile only grid inverted grey menu">
         <a class="toc item">
             <i class="sidebar icon"></i>
         </a>
@@ -92,55 +105,63 @@
                     <a class="item" href="#about">
                         About
                     </a>
-                    <a class="item" href="#program">
-                        Preliminary program
+                    <a class="item" href="#keynotes">
+                        Keynotes
                     </a>
-                    <a class="item" href="#participation">
-                        Participation
+                    <a class="item" href="#participate">
+                        Participate
                     </a>
+                    <a class="item" href="#committees">Committees</a>
+                    <a class="item" href="#contacts">Contacts</a>
                 </div>
             </div>
             <div class="ui grid computer only container">
-                <div class="ui fluid huge secondary menu">
+                <div id="computer-menu" class="ui fluid huge secondary menu">
                     <span class="header item">
-                        <img class="ui logo small image" src="static/logo/hse-logo-white.png" alt="Higher School of Economics">
+                        <img id="computer-logo" class="ui logo small image" src="static/logo/hse-logo-white.png" alt="Higher School of Economics">
                     </span>
-                    <div class="right menu">
-                        <a class="item" href="#about">
-                            <b>About</b>
-                        </a>
+                    <div class="menu">
                         <div class="ui dropdown item">
-                            Preliminary program <i class="dropdown icon"></i>
+                            About <i class="dropdown icon"></i>
                             <div class="menu">
-                                <a href="#keynote" class="item">Keynote speakers</a>
-                                <a href="#agenda" class="item">Conference agenda</a>
-                            </div>
-                        </div>
-                        <div class="ui dropdown item">
-                            Participation <i class="dropdown icon"></i>
-                            <div class="menu">
+                                <a href="#welcome" class="item">Welcome</a>
                                 <a href="#scope" class="item">Scope</a>
+                                <a href="#program" class="item">Preliminary program</a>
+                            </div>
+                        </div>
+                        <a class="item" href="#keynotes">Keynotes</a>
+                        <div class="ui dropdown item">
+                            Participate <i class="dropdown icon"></i>
+                            <div class="menu">
                                 <a href="#timeline" class="item">Timeline</a>
-                                <a href="#submission" class="item">Submission guidelines</a>
                                 <a href="#fees" class="item">Fees</a>
+                                <a href="#submission" class="item">Submission guidelines</a>
                             </div>
                         </div>
+                        <a class="item" href="#publication">Publication</a>
                         <div class="ui dropdown item">
-                            Organizers <i class="dropdown icon"></i>
+                            Committees <i class="dropdown icon"></i>
                             <div class="menu">
-                                <a href="#advisory-committee" class="item">Conference Advisory Committee</a>
-                                <a href="#university" class="item">University</a>
-                                <a href="#publication-partners" class="item">Publication partners</a>
-                                <a href="#host" class="item">Host Lab</a>
+                                <a href="#advisory-committee" class="item">Advisory committee</a>
+                                <a href="#organizing-committee" class="item">Organizing committee</a>
                             </div>
                         </div>
+                        <a class="item" href="#news">News</a>
                         <div class="ui dropdown item">
-                            Venue and travel <i class="dropdown icon"></i>
+                            Venue & Travel <i class="dropdown icon"></i>
                             <div class="menu">
-                                <a href="#campus" class="item">Campus</a>
-                                <a href="#facilities" class="item">University facilities</a>
                                 <a href="#city" class="item">City</a>
                                 <a href="#visas" class="item">Visas</a>
+                                <a href="#university" class="item">University</a>
+                                <a href="#campus" class="item">Campus</a>
+                                <a href="#facilities" class="item">University facilities</a>
+                            </div>
+                        </div>
+                        <div class="ui dropdown item">
+                            Contacts <i class="dropdown icon"></i>
+                            <div class="menu">
+                                <a href="#host" class="item">Host Lab</a>
+                                <a href="#contact-us" class="item">Contact us</a>
                             </div>
                         </div>
                     </div>
@@ -149,19 +170,32 @@
             <div class="ui one column middle aligned grid computer only container hero">
 
                 <!-- FIRST COLUMN -->
-                <div class="twelve wide column left aligned">
+                <div class="center aligned column">
                     <h1 class="ui header">
                         <img class="ui medium image" src="static/logo/ica-logo.png" />
                         ICA Regional Conference 2022
                     </h1>
-                    <h2 style="margin-bottom: 1.5em">
+                    <h2 style="margin-bottom: 1em">
                         Computational Communication Research in Central and Eastern Europe
                     </h2>
+                </div>
+
+                <div class="center aligned column">
                     <h3>
                         Saint Petersburg, Russia
-                        <br />
+                        <br/>
                         June 27-29, 2022
                     </h3>
+                </div>
+
+                <div class="center aligned eight wide centered column">
+                    <div class="ui warning inverted message">
+                        <h3>
+                            <span class="ui warning text">
+                                Deadline for abstracts submission:<br />December 25, 2021
+                            </span>
+                        </h3>
+                    </div>
                 </div>
 
                 <div class="column center aligned">
@@ -173,10 +207,25 @@
                         <i class="file import icon"></i>
                         Submit an abstract
                     </a>
-                    <a class="ui huge primary grey button" href="#contacts">
+                    <!-- <a class="ui huge primary grey button" href="#contacts">
                         <i class="envelope outline icon"></i>
                         Contact us
-                    </a>
+                    </a> -->
+                </div>
+
+                <div class="eight wide centered column center aligned" style="margin-top: 1.5em">
+                    <div class="ui warning message inverted">
+                        <div class="header">
+                        COVID-19 Contingency note
+                        </div>
+                        We are planning this conference to be held in a mixed
+                        online-offline format. However, it remains possible that
+                        public health situation and travel restrictions could
+                        render the offline format impractical, in which case the
+                        conference will be held fully online. The format of the
+                        conference will be determined no later than March 15,
+                        2022.
+                    </div>
                 </div>
 
                 <!-- <img class="ui right floated medium image" alt="Analytics" src="illustrations/school.svg"> -->
@@ -195,6 +244,20 @@
                         <br />
                         June 27-29, 2022
                     </h3>
+                </div>
+
+                <div class="center aligned twelve wide centered column">
+                    <div class="ui warning inverted message">
+                        <h3 style="font-size: 1.25em;">
+                            <span class="ui warning text">
+                            Deadline for abstracts submission:<br />December 25, 2021
+                            </span>
+                        </h3>
+                    </div>
+                
+                </div>
+
+                <div class="center aligned column">
                     <a target="_blank" class="ui huge primary blue button" href="https://docs.google.com/document/d/1SdEn49Rlv20DX2bVJCcsFm4S3Yxq9qY_/edit?usp=sharing&ouid=105759357099664319482&rtpof=true&sd=true">
                         <i class="file alternate outline icon"></i>
                         Call for Papers
@@ -203,10 +266,25 @@
                         <i class="file import icon"></i>
                         Submit an abstract
                     </a>
-                    <a class="ui huge primary grey button" href="#contacts">
+                    <!-- <a class="ui huge primary grey button" href="#contacts">
                         <i class="envelope outline icon"></i>
                         Contact us
-                    </a>
+                    </a> -->
+                </div>
+
+                <div class="twelve wide centered column center aligned" style="margin-top: 1.5em">
+                    <div class="ui warning message inverted">
+                        <div class="header">
+                        COVID-19 Contingency note
+                        </div>
+                        We are planning this conference to be held in a mixed
+                        online-offline format. However, it remains possible that
+                        public health situation and travel restrictions could
+                        render the offline format impractical, in which case the
+                        conference will be held fully online. The format of the
+                        conference will be determined no later than March 15,
+                        2022.
+                    </div>
                 </div>
             </div>
             <div class="ui one column middle aligned grid mobile only container hero">
@@ -223,6 +301,13 @@
                         <br />
                         June 27-29, 2022
                     </h3>
+                    <div class="ui warning inverted message">
+                        <h3>
+                            <span class="ui warning text">
+                                Deadline for abstracts submission:<br />December 25, 2021
+                            </span>
+                        </h3>
+                    </div>
                     <a target="_blank" class="ui huge primary blue button" href="https://docs.google.com/document/d/1SdEn49Rlv20DX2bVJCcsFm4S3Yxq9qY_/edit?usp=sharing&ouid=105759357099664319482&rtpof=true&sd=true">
                         <i class="file alternate outline icon"></i>
                         Call for Papers
@@ -231,16 +316,25 @@
                         <i class="file import icon"></i>
                         Submit an abstract
                     </a>
-                    <a class="ui huge primary grey button" href="#contacts">
-                        <i class="envelope outline icon"></i>
-                        Contact us
-                    </a>
+                    
+                    <div class="ui warning huge message inverted" style="margin-top: 2em">
+                        <div class="header">
+                        COVID-19 Contingency note
+                        </div>
+                        We are planning this conference to be held in a mixed
+                        online-offline format. However, it remains possible that
+                        public health situation and travel restrictions could
+                        render the offline format impractical, in which case the
+                        conference will be held fully online. The format of the
+                        conference will be determined no later than March 15,
+                        2022.
+                    </div>
                 </div>
             </div>
         </div>
 
-
         <div class="ui basic segment" id="about-section">
+
             <div class="ui two column stackable middle aligned grid container">
 
                 <div class="center aligned row">
@@ -259,35 +353,33 @@
                         <div class="ui huge items">
                             <div class="item">
                                 <div class="content">
-                                    <p>
-                                        ICA regional conference on
-                                        Computational Communication Research
-                                        in Central and Eastern Europe will
-                                        take place in St. Petersburg,
-                                        Russia, on June 27-29, 2022. The goal of the
-                                        conference is to consolidate the
-                                        regional community in the emerging
-                                        area of computational communication
-                                        research and contribute to its
-                                        closer integration with the global
-                                        community of computational
-                                        communication scholars, both within
-                                        and beyond current ICA membership.                                            
-                                    </p>
-                                    <p>
-                                        The event will be held in either a
-                                        mixed online-offline format –
-                                        epidemiological conditions and
-                                        availability of travel permitting –
-                                        or completely online as
-                                        circumstances may require.
-                                    </p>
-                                    <p>
-                                        The conference is organized by the
-                                        Laboratory for social and cognitive
-                                        informatics, part of the St.
-                                        Petersburg campus of HSE University.
-                                    </p>
+                                    <span id="welcome" class="header">
+                                        <i class="users icon"></i>
+                                        Welcome
+                                    </span>
+                                    <div class="description">
+                                        <p>
+                                            ICA regional conference on Computational
+                                            Communication Research in Central and
+                                            Eastern Europe will take place in St.
+                                            Petersburg, Russia, on June 27-29, 2022.
+                                            We welcome scholars of computational
+                                            communication regardless of what region
+                                            they come from. The goal of the
+                                            conference is to consolidate the Central
+                                            and Eastern European community of
+                                            computational communication scholars and
+                                            contribute to its closer integration
+                                            with the global community, both within
+                                            and beyond current ICA membership.
+                                        </p>
+                                        <p>
+                                            The conference is organized by the
+                                            Laboratory for social and cognitive
+                                            informatics, part of the St. Petersburg
+                                            campus of HSE University.
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -311,22 +403,10 @@
                     </div>
                 </div>
             </div>
-        </div>
+            
+            <div class="ui hidden divider"></div>
 
-        <div class="ui basic segment" id="participation-section">
-            <div class="ui two column grid container">
-                
-                <div class="center aligned row">
-                    <div class="centered column">
-                        <h2 id="participation" class="ui header">
-                            <i class="ui briefcase icon"></i>
-                            Participation
-                        </h2>
-                    </div>
-                </div>
-
-                <div class="ui hidden divider"></div>
-
+            <div class="ui two column stackable grid container">
                 <div class="row">
                     <div class="column">
                         <div class="ui huge items">
@@ -351,10 +431,10 @@
                                         intentionally broad as we look to
                                         attract participants from beyond the
                                         region and cover most of the subject
-                                        areas represented in ICA divisions.
-                                        The conference will welcome research
-                                        focused on, but not limited to the
-                                        following research areas:
+                                        areas represented in ICA divisions. The
+                                        conference will welcome research focused
+                                        on, but not limited to the following
+                                        research areas:
                                     </p>
                                     <ul class="ui list">
                                         <li>Diffusion, perception, and effects of information and misinformation (including political and COVID-related information)</li>
@@ -366,175 +446,101 @@
                                         <li>Assessing and improving health conditions via wearable devices, digital traces, and online interventions</li>
                                         <li>Political mobilization, deliberation, and polarization online</li>
                                         <li>Cultural production and communication in creative industries</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="column">
+                        <div class="ui huge items">
+                            <div class="item">
+                                <div class="content">
+                                    <ul class="ui list">
                                         <li>Communication and vulnerable groups: Hate speech, online, discrimination, cyber-bullying</li>
                                         <li>Detection of algorithmic biases hindering inclusion, equity and equal access to public goods</li>
                                         <li>Designing communication systems and environments to improve societies</li>
                                         <li>Communication in Central and Eastern European societies</li>
                                     </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="column">
-                        <div class="ui huge items">
-                            <div class="item">
-                                <div class="content">
                                     <p>
                                         We encourage submissions of papers
-                                        employing a wide range of
-                                        computational approaches and
-                                        representing interdisciplinary
-                                        fields such as:
+                                        employing a wide range of computational
+                                        approaches and representing
+                                        interdisciplinary fields such as:
+                                        Network science, computer simulation of
+                                        social processes, computational
+                                        linguistics, socio- and
+                                        psycholinguistics, large-scale
+                                        experimental approaches to human
+                                        behavior, multi-modal data modeling,
+                                        communication dynamics and multivariate
+                                        time series analysis, cultural analytics
+                                        and visualization, and others.
                                     </p>
-                                    <ul class="ui list">
-                                        <li>Network science</li>
-                                        <li>Complex systems approach and computer simulation of social processes</li>
-                                        <li>Computational linguistics, socio- and psycholinguistics</li>
-                                        <li>Computational cognitive sciences</li>
-                                        <li>Large-scale experimental approaches to human behavior</li>
-                                        <li>Multi-modal data modeling</li>
-                                        <li>Agent-based modeling</li>
-                                        <li>Communication dynamics and multivariate time series analysis</li>
-                                        <li>Cultural analytics and visualization</li>
-                                    </ul>
                                     <p>
                                         Please note that we will not accept
-                                        computational studies unrelated to
-                                        human communication, those limited
-                                        solely to computer science, or any
-                                        communication research that does not
-                                        employ advanced computation with
-                                        either big or complexly structured
-                                        data. Papers co-authored by
-                                        interdisciplinary teams will be
-                                        especially welcome.
+                                        computational studies unrelated to human
+                                        communication, those limited solely to
+                                        computer science, or any communication
+                                        research that does not employ advanced
+                                        computation with either big or complexly
+                                        structured data. Papers co-authored by
+                                        interdisciplinary teams are especially
+                                        welcome.
                                     </p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+            </div>
 
-                <div class="ui hidden divider"></div>
+            <div class="ui hidden divider"></div>
 
+            <div class="ui stackable two column centered grid container">
                 <div class="row">
                     <div class="column">
                         <div class="ui huge items">
                             <div class="item">
                                 <div class="content">
-                                    <span id="timeline" class="header">
-                                        <i class="calendar alternate outline icon"></i>
-                                        Timeline
+                                    <span id="program" class="header">
+                                        <i class="list alternate outline icon"></i>
+                                        Preliminary program
                                     </span>
-                                    <div class="description">
-                                        <ul class="ui list">
-                                            <li>December 25, 2021 — Submission deadline for extended abstracts, posters, and panels.</li>
-                                            <li>January 25, 2022 — Acceptance/rejection decisions communicated to the submitters.</li>
-                                            <li>March 15, 2022 — Online registration opens.</li>
-                                            <li>May 30, 2022 — Online registration closes.</li>
-                                        </ul>
-                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+                </div>
+                <div class="row">
                     <div class="column">
                         <div class="ui huge items">
                             <div class="item">
                                 <div class="content">
-                                    <span id="submission" class="header">
-                                        <i class="tasks icon"></i>
-                                        Submission guidelines
-                                    </span>
-                                    <div class="description">
-                                        <p>
-                                            Conference paper abstracts of 400 to 700 words are invited by December 25, 2021. Abstracts must clearly describe the central question of the study, data and methodological approach to their analysis, as well the wider implications of the expected results and their relevance to human communication research. Although it is not mandatory, we encourage submissions that include links to datasets and code used in the analysis.
-                                        </p>
-                                    </div>
+                                    <ul class="ui list">
+                                        <li>Keynote speeches by Profs. Contractor, de Vreese, Ling, and Strohmaier.</li>
+                                        <li>Plenary session: the state of computational communication research in CEE; Fostering collaboration between regional scholars. </li>
+                                        <li>Round table discussion of best practices in publishing computational communication research, featuring Profs. De Vreese, Ling, and Strohmaier.</li>
+                                        <li>Poster sessions</li>
+                                        <li>Panel discussions</li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-
-                <div class="ui hidden divider"></div>
-
-                <div class="row">
-                    <div class="sixteen wide centered column">
-                        <div class="ui huge items">
-                            <div class="item">
-                                <div class="content">
-                                    <span id="fees" class="header">
-                                        <i class="money bill icon"></i>
-                                        Fees
-                                    </span>
-                                    <div class="description">
-                                        <table class="ui very basic celled unstackable table">
-                                            <thead>
-                                                <tr>
-                                                    <th></th>
-                                                    <th>Tier 1</th>
-                                                    <th>Tier 2</th>
-                                                    <th>Tier 3</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                <tr>
-                                                    <td>Academic and professional participants</td>
-                                                    <td>$60</td>
-                                                    <td>$40</td>
-                                                    <td>$20</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>Graduate students and adjunct faculty</td>
-                                                    <td>$30</td>
-                                                    <td>$20</td>
-                                                    <td>$10</td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                        <p>
-                                            Offline registration rates vary by
-                                            the tier of the applicant’s country
-                                            of residence in accordance with the
-                                            <a href="tiers.html">World Bank’s Gross National Income
-                                            tier structure</a>. Tier 1 fee is $60,
-                                            Tier 2 fee is $40, Tier 3 fee is
-                                            $20. Merit-based fee waivers will be
-                                            available for graduate students and
-                                            early career scholars from CEE
-                                            countries. Should the conference
-                                            proceed in online format,
-                                            participation fees will be lowered
-                                            accordingly.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
             </div>
         </div>
 
         <!-- Instructors -->
-        <div class="ui basic segment" id="program-section">
+        <div class="ui basic segment" id="keynotes-section">
             <div class="ui two column stackable grid container">
                 <div class="center aligned row">
                     <div class="centered column">
-                        <h2 id="program" class="ui header">
-                            Preliminary program
-                        </h2>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="sixteen wide column">
-                        <h3 id="keynote" class="ui horizontal center aligned divider header">
+                        <h2 id="keynotes" class="ui header">
                             <i class="user tie icon"></i>
                             Keynote speakers
-                        </h3>
+                        </h2>
                     </div>
                 </div>
 
@@ -737,127 +743,57 @@
                         </div>
                     </div>
                 </div>
-                
-                <div class="ui hidden section divider"></div>
-
-                <div class="row">
-                    <div class="sixteen wide column">
-                        <h3 id="agenda" class="ui horizontal center aligned divider header">
-                            <i class="list alternate outline icon"></i>
-                            Conference agenda
-                        </h3>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="eight wide centered column">
-                        <div class="ui huge items">
-                            <div class="item">
-                                <div class="content">
-                                    <div class="content">
-                                        <ul class="ui list">
-                                            <li>Business meeting</li>
-                                            <li>Poster sessions</li>
-                                            <li>Panel discussions</li>
-                                            <li>Round table discussion of best practices in publishing computational communication research, featuring Profs. De Vreese, Ling, and Strohmaier</li>
-                                            <li>Best paper awards ceremony</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
             </div>
         </div>
 
 
-
-        <!-- ORGANIZERS -->
-        <div class="ui basic segment" id="organizers-section">
-            <div class="ui stackable grid container">
+        <div class="ui basic segment" id="participate-section">
+            <div class="ui two column stackable grid container">
+                
                 <div class="center aligned row">
                     <div class="centered column">
-                        <h2 id="organizers" class="ui header">
-                            <i class="university icon"></i> 
-                            Organizers
+                        <h2 id="participate" class="ui header">
+                            <i class="ui briefcase icon"></i>
+                            Participate
                         </h2>
                     </div>
                 </div>
 
                 <div class="ui hidden divider"></div>
-                
-                <div class="two column row">
+
+                <div class="row">
                     <div class="column">
                         <div class="ui huge items">
                             <div class="item">
                                 <div class="content">
-                                    <span id="advisory-committee" class="header">
-                                        <i class="users icon"></i>
-                                        Conference Advisory Committee
+                                    <span id="timeline" class="header">
+                                        <i class="calendar alternate outline icon"></i>
+                                        Timeline
                                     </span>
                                     <div class="description">
                                         <ul class="ui list">
-                                            <li><b>Iwona Hofman</b>, President of Polish Communication Association, Maria Curie-Skłodowska University.</li>
-                                            <li><b>János Kertész</b>, Head of the Department of Network and Data Science, Central European University.</li>
-                                            <li><b>Gregor Petrič</b>, Head of the Center for Methodology and Informatics at the Faculty of Social Sciences, Ljubljana University.</li>
-                                            <li><b>Maximilian Schich</b>, Head of the EU ERA Chair for Cultural Data Analytics and Senior Fellow at Vejune Zemaityte, Tallinn University.</li>
-                                            <li><b>Ivan Smirnov</b>, Head of the Laboratory for Computational Social Science, HSE University.</li>
-                                            <li><b>Anastasiya Bonch-Osmolovskaya</b>, Head of the Center for Digital Humanities, HSE University.</li>
-                                            <li><b>Iliya Kiriya</b>, Head of the Department of media, HSE University.</li>
-                                            <li><b>Svetlana Bodrunova</b>, Vice Dean at the School of Journalism and Mass Communication, St. Petersburg State University.</li>
-                                            <li><b>Denis Stukal</b>, Deputy Dean, Faculty of Social Sciences; Deputy Director, Institute for Applied Political Studies, HSE University</li>
-                                            <li><b>Nikita Basov</b>, Scientific manager of the Centre for German and European Studies, St. Petersburg State University & Bielefeld University.</li>
-                                            <li><b>Wouter van Atteveldt</b>, Vrije Universiteit Amsterdam & Editor-in-chief of Computational Communication Research.</li>
+                                            <li>December 25, 2021 — Submission deadline for extended abstracts, posters, and panels.</li>
+                                            <li>January 25, 2022 — Acceptance/rejection decisions communicated to the submitters.</li>
+                                            <li>March 15, 2022 — Online registration opens.</li>
+                                            <li>May 30, 2022 — Online registration closes.</li>
                                         </ul>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-
                     <div class="column">
                         <div class="ui huge items">
                             <div class="item">
                                 <div class="content">
-                                    <span id="university" class="header">
-                                        <i class="university icon"></i>
-                                        University
+                                    <span id="submission" class="header">
+                                        <i class="tasks icon"></i>
+                                        Submission guidelines
                                     </span>
                                     <div class="description">
                                         <p>
-                                            Established in the early 1990s by a
-                                            team of reformist academics, Higher
-                                            School of Economics (HSE) has now
-                                            become the leading Russia’s
-                                            university in the areas of social
-                                            sciences, humanities, mathematics,
-                                            and computer science. It is also
-                                            known for its interdisciplinary and
-                                            international approach to research,
-                                            hosting around 50 research units
-                                            with international participation
-                                            that are mostly interdisciplinary.
-                                            In 2020, it made Top-300 in QS
-                                            global ranking, and in recent years
-                                            it has been consistently included in
-                                            QS “Top 50 under 50” – a ranking
-                                            designed to reflect the quality of
-                                            young Universities. According to QS
-                                            subject rankings, HSE University is
-                                            among the world’s Top-50 in Politics
-                                            and International studies, and ranks
-                                            in Top-100 in Economics, Sociology,
-                                            History, and Social Policy &
-                                            Administration globally and #1 in
-                                            each of these subject areas in
-                                            Russia.
+                                            Conference paper abstracts of 400 to 700 words are invited by December 25, 2021. Abstracts must clearly describe the central question of the study, data and methodological approach to their analysis, as well the wider implications of the expected results and their relevance to human communication research. Although it is not mandatory, we encourage submissions that include links to datasets and code used in the analysis.
                                         </p>
-                                        <img
-                                            src="https://www.hse.ru/data/2021/08/25/1414838109/3HSE-8086_Preview.jpeg"
-                                            alt="Higher School of Economics"
-                                            class="ui bordered fluid image">
                                     </div>
                                 </div>
                             </div>
@@ -867,14 +803,67 @@
 
                 <div class="ui hidden divider"></div>
 
-                <div class="two column row">
+                <div class="row">
                     <div class="column">
                         <div class="ui huge items">
                             <div class="item">
                                 <div class="content">
-                                    <span id="publication-partners" class="header">
+                                    <span id="fees" class="header">
+                                        <i class="money bill icon"></i>
+                                        Fees
+                                    </span>
+                                    <div class="description">
+                                        <table class="ui very basic celled unstackable table">
+                                            <thead>
+                                                <tr>
+                                                    <th></th>
+                                                    <th>Tier 1</th>
+                                                    <th>Tier 2</th>
+                                                    <th>Tier 3</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>Academic and professional participants</td>
+                                                    <td>$60</td>
+                                                    <td>$40</td>
+                                                    <td>$20</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Graduate students and adjunct faculty</td>
+                                                    <td>$30</td>
+                                                    <td>$20</td>
+                                                    <td>$10</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <p>
+                                            Offline registration rates vary by
+                                            the tier of the applicant’s country
+                                            of residence in accordance with the
+                                            <a href="tiers.html">World Bank’s Gross National Income
+                                            tier structure</a>. Tier 1 fee is $60,
+                                            Tier 2 fee is $40, Tier 3 fee is
+                                            $20. Merit-based fee waivers will be
+                                            available for graduate students and
+                                            early career scholars from CEE
+                                            countries. Should the conference
+                                            proceed in online format,
+                                            participation fees will be lowered
+                                            accordingly.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="ui huge items">
+                            <div class="item">
+                                <div class="content">
+                                    <span id="publication" class="header">
                                         <i class="file alternate outline icon"></i>
-                                        Publication partner
+                                        Publication
                                     </span>
                                     <div class="description">
                                         <ul class="ui list">
@@ -891,30 +880,167 @@
                             </div>
                         </div>
                     </div>
+                </div>
 
+            </div>
+        </div>
+
+
+        <!-- ORGANIZERS -->
+        <div class="ui basic segment" id="organizers-section">
+            <div class="ui two column stackable grid container">
+                <div class="center aligned row">
+                    <div class="centered column">
+                        <h2 id="committees" class="ui header">
+                            <i class="university icon"></i> 
+                            Committees
+                        </h2>
+                    </div>
+                </div>
+
+                <h3 id="advisory-committee" class="ui horizontal divider header">
+                    Advisory committee
+                </h3>
+                
+                <div class="row">
                     <div class="column">
                         <div class="ui huge items">
                             <div class="item">
                                 <div class="content">
-                                    <span id="host" class="header">
-                                        <i class="user friends icon"></i>
-                                        Host Lab
+                                    <ul class="ui list">
+                                        <li><b>Iwona Hofman</b>, President of Polish Communication Association, Maria Curie-Skłodowska University.</li>
+                                        <li><b>János Kertész</b>, Head of the Department of Network and Data Science, Central European University.</li>
+                                        <li><b>Gregor Petrič</b>, Head of the Center for Methodology and Informatics at the Faculty of Social Sciences, Ljubljana University.</li>
+                                        <li><b>Maximilian Schich</b>, Head of the EU ERA Chair for Cultural Data Analytics and Senior Fellow at Vejune Zemaityte, Tallinn University.</li>
+                                        <li><b>Ivan Smirnov</b>, Head of the Laboratory for Computational Social Science, HSE University.</li>
+                                        <li><b>Anastasiya Bonch-Osmolovskaya</b>, Head of the Center for Digital Humanities, HSE University.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="ui huge items">
+                            <div class="item">
+                                <div class="content">
+                                    <ul class="ui list">
+                                        <li><b>Iliya Kiriya</b>, Head of the Department of media, HSE University.</li>
+                                        <li><b>Svetlana Bodrunova</b>, Vice Dean at the School of Journalism and Mass Communication, St. Petersburg State University.</li>
+                                        <li><b>Denis Stukal</b>, Deputy Dean, Faculty of Social Sciences; Deputy Director, Institute for Applied Political Studies, HSE University</li>
+                                        <li><b>Nikita Basov</b>, Scientific manager of the Centre for German and European Studies, St. Petersburg State University & Bielefeld University.</li>
+                                        <li><b>Wouter van Atteveldt</b>, Vrije Universiteit Amsterdam & Editor-in-chief of Computational Communication Research.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <h3 id="organizing-committee" class="ui horizontal divider header">
+                    Organizing committee
+                </h3>
+                
+                <div class="row">
+                    <div class="column">
+                        <div class="ui huge items">
+                            <div class="item">
+                                <div class="ui small circular image">
+                                    <img alt="Olessia Koltsova" src="https://www.hse.ru/pubs/share/thumb/138563344:c196x196+0+25:r380x380!">
+                                </div>
+                                <div class="content">
+                                    <span class="header">
+                                        <a href="https://www.hse.ru/org/persons/202747">
+                                            Olessia Koltsova
+                                        </a>
                                     </span>
+                                    <div class="meta">
+                                        Committee Chair
+                                    </div>
                                     <div class="description">
-                                        <p>
-                                            Social and Cognitive Informatics Lab
-                                            (SCILa), formerly Laboratory for
-                                            Internet Studies (LINIS) at HSE
-                                            headed by Olessia Koltsova focuses
-                                            on interdisciplinary computational
-                                            research of human communication.
-                                            SCILA’s team investigates and models
-                                            interaction of individuals and
-                                            groups with information, knowledge,
-                                            respective technologies and with
-                                            other humans using these
-                                            technologies. 
-                                        </p>
+                                        Higher School of Economics, Russia
+                                    </div>
+                                    <div class="extra">
+                                        <a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#101;&#107;&#111;&#108;&#116;&#115;&#111;&#118;&#097;&#064;&#104;&#115;&#101;&#046;&#114;&#117;">&#101;&#107;&#111;&#108;&#116;&#115;&#111;&#118;&#097;&#064;&#104;&#115;&#101;&#046;&#114;&#117;</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="ui huge items">
+                            <div class="item">
+                                <div class="ui small circular image">
+                                    <img alt="Kirill Bryanov" src="https://www.hse.ru/pubs/share/thumb/399224553:c827x827+13+0:r380x380!.jpg">
+                                </div>
+                                <div class="content">
+                                    <span class="header">
+                                        <a class="item" href="https://www.hse.ru/staff/bryanov">
+                                            Kirill Bryanov
+                                        </a>
+                                    </span>
+                                    <div class="meta">
+                                        EasyChair, correspondence
+                                    </div>
+                                    <div class="description">
+                                        Higher School of Economics, Russia
+                                    </div>
+                                    <div class="extra">
+                                        <a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#107;&#098;&#114;&#121;&#097;&#110;&#111;&#118;&#064;&#104;&#115;&#101;&#046;&#114;&#117;">&#107;&#098;&#114;&#121;&#097;&#110;&#111;&#118;&#064;&#104;&#115;&#101;&#046;&#114;&#117;</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="ui hidden divider"></div>
+                
+                <div class="row">
+                    <div class="column">
+                        <div class="ui huge items">
+                            <div class="item">
+                                <div class="ui small circular image">
+                                    <img alt="Maxim Terpilovskii" src="https://www.hse.ru/pubs/share/thumb/288250050:c1500x1500+0+0:r380x380!.jpg">
+                                </div>
+                                <div class="content">
+                                    <span class="header">
+                                        <a href="https://www.hse.ru/staff/mterpilowski">
+                                            Maxim Terpilovskii
+                                        </a>
+                                    </span>
+                                    <div class="meta">
+                                        Website, design
+                                    </div>
+                                    <div class="description">
+                                        Higher School of Economics, Russia
+                                    </div>
+                                    <div class="extra">
+                                        <a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#109;&#116;&#101;&#114;&#112;&#105;&#108;&#111;&#118;&#115;&#107;&#105;&#121;&#064;&#104;&#115;&#101;&#046;&#114;&#117;">&#109;&#116;&#101;&#114;&#112;&#105;&#108;&#111;&#118;&#115;&#107;&#105;&#121;&#064;&#104;&#115;&#101;&#046;&#114;&#117;</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="ui huge items">
+                            <div class="item">
+                                <div class="ui small circular image">
+                                    <img alt="Victoria Vziatysheva" src="https://www.hse.ru/pubs/share/thumb/503713679:c720x720+0+0:r380x380!">
+                                </div>
+                                <div class="content">
+                                    <span class="header">
+                                        <a class="item" href="https://www.hse.ru/org/persons/254307803">
+                                            Victoria Vziatysheva
+                                        </a>
+                                    </span>
+                                    <div class="meta">
+                                        News, social media
+                                    </div>
+                                    <div class="description">
+                                        Higher School of Economics, Russia
+                                    </div>
+                                    <div class="extra">
+                                        <a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#118;&#118;&#122;&#121;&#097;&#116;&#121;&#115;&#104;&#101;&#118;&#097;&#064;&#104;&#115;&#101;&#046;&#114;&#117;">&#118;&#118;&#122;&#121;&#097;&#116;&#121;&#115;&#104;&#101;&#118;&#097;&#064;&#104;&#115;&#101;&#046;&#114;&#117;</a>
                                     </div>
                                 </div>
                             </div>
@@ -925,6 +1051,29 @@
         </div>
 
 
+
+        <div class="ui basic segment" id="news-section">
+            <div class="ui stackable grid container">
+                
+                <div class="center aligned row">
+                    <div class="centered column">
+                        <h2 id="news" class="ui header">
+                            <i class="newspaper outline icon"></i>
+                            News
+                        </h2>
+                    </div>
+                </div>
+
+                <div class="ui hidden divider"></div>
+
+                <div class="row">
+                    <div class="center aligned column">
+                        <span class="ui large text">Not available yet.</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
 
         <!-- TRAVEL -->
         <div class="ui basic segment" id="travel-section">
@@ -1040,6 +1189,58 @@
                 <div class="ui computer only grid container">
                     <div class="ui hidden divider"></div>
                 </div>
+                
+                <div class="row">
+                    <div class="center aligned column">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/9/94/%D0%9A%D0%BE%D1%80%D0%BF%D1%83%D1%81_%D0%9D%D0%98%D0%A3_%D0%92%D0%A8%D0%AD_-_%D0%A1%D0%B0%D0%BD%D0%BA%D1%82_%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3_%D0%BD%D0%B0_%D0%9A%D0%B0%D0%BD%D1%82%D0%B5%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D1%81%D0%BA%D0%BE%D0%B9.jpg" class="ui fluid bordered image">
+                    </div>
+                    <div class="column">
+                        <div class="ui huge items">
+                            <div class="item">
+                                <div class="content">
+                                    <span id="university" class="header">
+                                        <i class="university icon"></i>
+                                        University
+                                    </span>
+                                    <div class="description">
+                                        <p>
+                                            Established in the early 1990s by a
+                                            team of reformist academics, Higher
+                                            School of Economics (HSE) has now
+                                            become the leading Russia’s
+                                            university in the areas of social
+                                            sciences, humanities, mathematics,
+                                            and computer science. It is also
+                                            known for its interdisciplinary and
+                                            international approach to research,
+                                            hosting around 50 research units
+                                            with international participation
+                                            that are mostly interdisciplinary.
+                                            In 2020, it made Top-300 in QS
+                                            global ranking, and in recent years
+                                            it has been consistently included in
+                                            QS “Top 50 under 50” – a ranking
+                                            designed to reflect the quality of
+                                            young Universities. According to QS
+                                            subject rankings, HSE University is
+                                            among the world’s Top-50 in Politics
+                                            and International studies, and ranks
+                                            in Top-100 in Economics, Sociology,
+                                            History, and Social Policy &
+                                            Administration globally and #1 in
+                                            each of these subject areas in
+                                            Russia.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="ui computer only grid container">
+                    <div class="ui hidden divider"></div>
+                </div>
 
                 <div class="row">
                     <div class="column">
@@ -1150,7 +1351,7 @@
 
         <!-- CONTACTS -->
         <div class="ui basic segment" id="contacts-section">
-            <div class="ui stackable grid container">
+            <div class="ui two column stackable grid container">
                 <div class="center aligned row">
                     <div class="centered column">
                         <h2 id="contacts" class="ui header">
@@ -1159,18 +1360,58 @@
                         </h2>
                     </div>
                 </div>
+
                 <div class="ui hidden divider"></div>
-                <div class="center aligned row">
-                    <div class="centered eight ten wide column">
-                        <p>
-                            <span class="ui large text">
-                                For any information related to the conference,
-                                contact Kirill Bryanov at
-                                <a href="&#109;&#97;&#105;&#108;&#116;&#111;&colon;&#107;&#98;&#114;&#121;&#97;&#110;&#111;&#118;&commat;&#104;&#115;&#101;&period;&#114;&#117;">
-                                    &#107;&#98;&#114;&#121;&#97;&#110;<!-- abc@def -->&#111;&#118;&commat;&#104;&#115;&#101;&period;<!-- abc@def -->&#114;&#117;
-                                </a>.
-                            </span>    
-                        </p>
+                
+                <div class="row">
+                    <div class="column">
+                        <div class="ui huge items">
+                            <div class="item">
+                                <div class="content">
+                                    <span id="host" class="header">
+                                        <i class="users icon"></i>
+                                        Host Lab
+                                    </span>
+                                    <div class="description">
+                                        <p>
+                                            Social and Cognitive Informatics Lab
+                                            (SCILa), formerly Laboratory for
+                                            Internet Studies (LINIS) at HSE,
+                                            headed by Olessia Koltsova, focuses
+                                            on interdisciplinary computational
+                                            research of human communication.
+                                            SCILA’s team investigates and models
+                                            interaction of individuals and
+                                            groups with information,
+                                            technological systems, and each
+                                            other.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="ui huge items">
+                            <div class="item">
+                                <div class="content">
+                                    <span id="contact-us" class="header">
+                                        <i class="question circle icon"></i>
+                                        Contact us
+                                    </span>
+                                    <div class="description">
+                                        <p>
+                                            <span class="ui text">
+                                                For any information related to the conference, contact us at 
+                                                <a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#105;&#099;&#097;&#050;&#048;&#050;&#050;&#099;&#111;&#109;&#112;&#099;&#111;&#109;&#109;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;">
+                                                    &#105;&#099;&#097;&#050;&#048;&#050;&#050;&#099;&#111;&#109;&#112;&#099;&#111;&#109;&#109;<!-- abc@def -->&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;
+                                                </a>.
+                                            </span>    
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -1187,6 +1428,6 @@
         </div>
     </div>
 
-<script src="static/ui.js"></script>
+<script type="text/javascript" src="./static/ui.js"></script>
 </body>
 </html>

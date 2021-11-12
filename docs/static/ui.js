@@ -1,19 +1,24 @@
-$('.ui.dropdown').dropdown();
+$(".ui.dropdown").dropdown();
 
-$('.ui.sidebar')
-    .sidebar('attach events', '.toc.item')
-    .sidebar('attach events', '.sidebar a.item');
+$(".ui.sidebar")
+  .sidebar("attach events", ".toc.item")
+  .sidebar("attach events", ".sidebar a.item");
 
-$(document).ready(function() {
-    $('.masthead').visibility({
-        once: false,
-        onBottomPassed: function() {
-            $('.ui.menu').removeClass("sticky huge").addClass("fixed large");
-            $('.ui.logo').removeClass("medium").addClass("small");
-        },
-        onBottomPassedReverse: function() {
-            $('.ui.menu').addClass("sticky huge").removeClass("fixed large");
-            $('.ui.logo').removeClass("small").addClass("medium");
-        }
-    });
+$(document).ready(function () {
+  $("#hero-section").visibility({
+    once: false,
+    onBottomPassed: function () {
+      $("#computer-menu")
+        .removeClass("secondary")
+        .addClass("inverted grey fixed")
+        .transition("fade in");
+      $("#computer-logo").removeClass("small").addClass("tiny");
+    },
+    onBottomPassedReverse: function () {
+      $("#computer-menu")
+        .addClass("secondary")
+        .removeClass("inverted grey fixed");
+      $("#computer-logo").removeClass("tiny").addClass("small");
+    },
+  });
 });
