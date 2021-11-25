@@ -22,3 +22,14 @@ $(document).ready(function () {
     },
   });
 });
+
+$('.menu > a[class="item"]').click(function () {
+  elem = $(this).attr("href");
+  height = $(elem).height() * 2;
+  $([document.documentElement, document.body]).animate(
+    {
+      scrollTop: $(elem).offset().top - height,
+    },
+    100
+  );
+});
