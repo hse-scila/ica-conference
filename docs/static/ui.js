@@ -21,6 +21,8 @@ $(document).ready(function () {
       $("#computer-logo").removeClass("tiny").addClass("small");
     },
   });
+
+  $('#chairtoast').toast({displayTime: 0});
 });
 
 $('.menu > a[class="item"]').click(function () {
