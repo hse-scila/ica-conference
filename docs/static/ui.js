@@ -22,7 +22,7 @@ $(document).ready(function () {
     },
   });
 
-  $('#chairtoast').toast({displayTime: 0});
+  // $('#chairtoast').toast({displayTime: 0});
 });
 
 $('.menu > a[class="item"]').click(function () {
