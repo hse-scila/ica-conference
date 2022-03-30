@@ -93,10 +93,11 @@ h3 {
 
 #participate-section {
   border-top: 1px solid rgba(34, 36, 38, 0.15);
-  border-bottom: 1px solid rgba(34, 36, 38, 0.15);
+  /* border-bottom: 1px solid rgba(34, 36, 38, 0.15); */
   background-color: #fffadb;
   padding: 2em 0;
   margin-top: 0;
+  margin-bottom: 0;
 }
 
 #best-paper-section {
@@ -107,12 +108,13 @@ h3 {
   margin-top: 0;
 }
 
-#news-section {
+#travel-section {
   /* background-color: #defdd0; */
-  background-color: #fddfdf;
+  /* background-color: #fddfdf; */
   border-top: 1px solid rgba(34, 36, 38, 0.15);
-  border-bottom: 1px solid rgba(34, 36, 38, 0.15);
+  /* border-bottom: 1px solid rgba(34, 36, 38, 0.15); */
   padding: 2em 0;
+  margin-bottom: 0;
 }
 
 #news-section .summary {

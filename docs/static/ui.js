@@ -12,13 +12,13 @@ $(document).ready(function () {
         .removeClass("secondary")
         .addClass("inverted grey fixed")
         .transition("fade in");
-      $("#computer-logo").removeClass("small").addClass("tiny");
+      // $("#computer-logo").removeClass("small").addClass("tiny");
     },
     onBottomPassedReverse: function () {
       $("#computer-menu")
         .addClass("secondary")
         .removeClass("inverted grey fixed");
-      $("#computer-logo").removeClass("tiny").addClass("small");
+      // $("#computer-logo").removeClass("tiny").addClass("small");
     },
   });
 

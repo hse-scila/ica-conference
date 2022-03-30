@@ -4,5 +4,4 @@
 
 June 27-29, 2022
 
-St. Petersburg, Russia
-
+Helsinki, Finland
