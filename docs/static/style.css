@@ -83,6 +83,8 @@ h3 {
   line-height: 1.5em;
 }
 
+
+
 #about-section {
   border-top: 1px solid rgba(34, 36, 38, 0.15);
   border-bottom: 1px solid rgba(34, 36, 38, 0.15);
@@ -109,6 +111,15 @@ h3 {
 }
 
 #travel-section {
+  /* background-color: #defdd0; */
+  /* background-color: #fddfdf; */
+  border-top: 1px solid rgba(34, 36, 38, 0.15);
+  /* border-bottom: 1px solid rgba(34, 36, 38, 0.15); */
+  padding: 2em 0;
+  margin-bottom: 0;
+}
+
+#program-section {
   /* background-color: #defdd0; */
   /* background-color: #fddfdf; */
   border-top: 1px solid rgba(34, 36, 38, 0.15);
